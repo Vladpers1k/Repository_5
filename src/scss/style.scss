@@ -5,9 +5,17 @@
 @import 'global/basic';
 @import 'global/typograph';
 
-@import 'settings/header';
-@import 'settings/footer';
+@import 'header/header';
+@import 'header/navbar';
+@import 'header/content';
+
+@import 'footer/footer';
+
 @import 'settings/section';
+@import 'settings/about.scss';
+@import 'settings/process.scss';
+@import 'settings/video.scss';
+@import 'settings/work.scss';
 
 @media (max-width: 608px) {
   .container {

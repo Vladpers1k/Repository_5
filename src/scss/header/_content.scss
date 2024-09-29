@@ -1,27 +1,3 @@
-.header {
-  padding-top: 79px;
-  padding-bottom: 141px;
-  background-color: #eeeff1;
-}
-
-.navbar {
-  margin-bottom: 116px;
-}
-.navbar__list {
-  display: flex;
-  gap: $gap-lg;
-}
-.navbar__link {
-  letter-spacing: $letter-spacing;
-  color: $color-black;
-  padding: $gap-sm 3px $gap-sm 0;
-}
-.navbar__link_active {
-  font-size: 16px;
-  color: $color-primary;
-  font-weight: 500;
-}
-
 .content {
   display: flex;
   flex-direction: column;
