@@ -2,31 +2,31 @@
   background-color: $color-primary;
   color: $color-white;
   padding: 100px 0 95px;
-}
 
-.work__container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: $gap-md;
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: $gap-md;
+  }
 }
 
 .work-item {
   display: flex;
   gap: $gap;
-}
 
-.work-item__description {
-  gap: 5px;
-  display: flex;
-  flex-direction: column;
-}
+  &__description {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
 
-.work-item__numbers {
-  font-weight: 500;
-  font-size: 1.3rem;
-}
+  &__numbers {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
 
-.work-item__image {
-  order: -1;
+  &__image {
+    order: -1;
+  }
 }

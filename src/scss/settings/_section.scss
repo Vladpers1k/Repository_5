@@ -1,18 +1,18 @@
 .section {
   padding-top: 112px;
   padding-bottom: 90px;
-}
 
-.section__title {
-  color: $color-black;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 40px;
-}
+  &__title {
+    color: $color-black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
 
-.section_description {
-  line-height: $line-height-lg;
-  color: $color-secondary;
-  text-align: center;
+  &_description {
+    line-height: $line-height-lg;
+    color: $color-secondary;
+    text-align: center;
+  }
 }

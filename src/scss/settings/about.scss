@@ -1,19 +1,19 @@
-/* .about {
+.about {
   padding-top: 112px;
   padding-bottom: 90px;
   background-color: $color-light;
-}
 
-.about__title {
-  color: $color-black;
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 40px;
-  text-align: center;
-}
+  &__title {
+    color: $color-black;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+  }
 
-.about__description {
-  line-height: $line-height-lg;
-  color: $color-secondary;
-  text-align: center;
-} */
+  &__description {
+    line-height: $line-height-lg;
+    color: $color-secondary;
+    text-align: center;
+  }
+}

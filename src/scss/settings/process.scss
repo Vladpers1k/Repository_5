@@ -1,24 +1,19 @@
 .process {
-  background-color: $color-gray-light;
-  padding-bottom: 50px;
-}
-
-/* .process {
   padding-top: 112px;
   padding-bottom: 50px;
   background-color: $color-gray-light;
-}
 
-.process__title {
-  color: $color-black;
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 40px;
-  text-align: center;
-}
+  &__title {
+    color: $color-black;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+  }
 
-.process__description {
-  line-height: $line-height-lg;
-  color: $color-secondary;
-  text-align: center;
-} */
+  &__description {
+    line-height: $line-height-lg;
+    color: $color-secondary;
+    text-align: center;
+  }
+}
