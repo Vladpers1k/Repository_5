@@ -13,7 +13,7 @@
 }
 
 .container {
-  @include container;
+  @include container($container-primary);
 
   &--sm {
     @include container($container-sm);
